@@ -1,0 +1,28 @@
+header{
+    
+    
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content:space-evenly;
+    overflow: hidden;
+    display: flex;
+    
+}
+nav .image-container{
+    height: 60px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 30px;
+}   
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+ul{
+    display: inline-flex;
+    gap: 15px;
+    list-style: none;
+}
